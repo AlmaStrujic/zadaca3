@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner reader = new Scanner(System.in);
 
-//        // ZADATAK 1 - Array length and elements entry
+        // ZADATAK 1 - Array length and elements entry
 //        System.out.println("How many elements will your array contain?");
 //        int desiredArray = reader.nextInt();
 //        int[] arrayLength = new int[desiredArray];
@@ -13,31 +13,32 @@ public class Main {
 //        for (int i = 0; i < arrayLength.length; i++) {
 //            System.out.println("Please enter number");
 //            arrayLength[i] = reader.nextInt();
-////           }
 //
-//            for (int i = arrayLength.length - 1; i >= 0; i--) {
-//                System.out.println(arrayLength[i]);
-//                if (arrayLength[i] % 2 == 0) {
+//            for (int j = arrayLength.length - 1; j >= 0; j--) {
+//                System.out.println(arrayLength[j]);
+//                if (arrayLength[j] % 2 == 0) {
 //                    System.out.println("The number " + arrayLength[i] + " is even");
 //                } else {
 //                    System.out.println("The number " + arrayLength[i] + " is  odd");
 //                }
 //
-//                if (arrayLength[i] > 10) {
+//                if (arrayLength[j] > 10) {
 //                    System.out.println("The number is greater that 10");
 //                }
 //            }
-//////        }
+//        }
 
         // ZADATAK 2 -
-
-//        int [] arrayA = {55, 1, 169, 2354, 1111, 13, 14, 211, 968546482, 10};
+//
+//        int[] arrayA = {55, 1, 169, 2354, 1111, 13, 14, 211, 968546482};
 //        String[] stringArray = {"1.", "2.", "3.", "4.", "5.", "6.", "7.", "8.", "9.", "10.", "11.", "12.", "13.", "14.", "15.",};
 //
 //        if (arrayA.length <= 15) {
-//            for (int  i = 0; i < arrayA.length; i++) {
+//            for (int i = 0; i < arrayA.length; i++) {
 //                System.out.println(stringArray[i] + "number is: " + arrayA[i]);
 //            }
+//        } else {
+//            System.out.println("Array length is greater that 15.");
 //        }
 
         // ZADATAK 3 - Reverse array
@@ -47,27 +48,29 @@ public class Main {
 //
 //        for (int i = arrayZadatak2.length-1; i >= 0; i--) {
 //            newArray[i] = arrayZadatak2[i];
-//            System.out.println(newArray[i]);
+//            System.out.print(newArray[i] + " ");
 //        }
 
         // ZADATAK 4 - Check if palindrome
 
-//        String palindrome = "";
+//        String palindrome = "kajak";
 //        String reverse = "";
 //
 //        for (int i = palindrome.length()-1; i >= 0; i--) {
 //            reverse += palindrome.charAt(i);
 //            }
+
 //        boolean checkIfPalindrome = true;
 //        for (int i = 0; i < palindrome.length(); i++) {
 //            if (palindrome.charAt(i) != reverse.charAt(i)) {
 //                checkIfPalindrome = false;
 //            }
-//           if (checkIfPalindrome) {
-//               System.out.println("The word is palindrome!");
-//           } else {
-//               System.out.println("This word is NOT a palindrome!");
-//           }
+//        }
+//
+//        if (checkIfPalindrome) {
+//        System.out.println("The word is palindrome!");
+//        } else {
+//        System.out.println("This word is NOT a palindrome!");
 //        }
 
 //        // ZADATAK 5 - RANGE & EVEN NUMBERS
@@ -76,7 +79,7 @@ public class Main {
 //        System.out.println("Please enter lowest number in range: ");
 //        int rangeMIN = reader.nextInt();
 //
-//        System.out.println("Please enter lowest number in range: ");
+//        System.out.println("Please enter greatest number in range: ");
 //        int rangeMAX = reader.nextInt();
 //
 //        for (int i = rangeMIN; i < rangeMAX; i++) {
@@ -88,7 +91,7 @@ public class Main {
         // ZADATAK 6 - Combine 3 arrays into 1 large array
 
 //        int [] array1 = {1, 2, 3, 4};
-//        int [] array2 = {5,6,7};
+//        int [] array2 = {5, 6, 7};
 //        int [] array3 = {8, 9, 10};
 //        int [] result = new int [array1.length + array2.length + array3.length];
 //
@@ -134,24 +137,24 @@ public class Main {
 //            System.out.print(result[i] + " ");
 //        }
 
-        // ZADATAK 8 - Push out strings containing wovels
-
-//        String [] initialString = {"brk", "Macka", "trg", "ANA", "xyz"};
-//        String [] newString = new String[initialString.length];
+//        // ZADATAK 8 - Push out strings containing wovels
+//
+//        String[] initialString = {"brk", "Macka", "trg", "ANA", "xyz"};
+//        String[] vowels = {"a", "A", "e", "E", "i", "I", "o", "O", "u", "U"};
 //
 //        for (int i = 0; i < initialString.length; i++) {
-//            char [] stringToChar = initialString[i].toCharArray();
-//            for (int j = 0; j < stringToChar.length; j++) {
-//                if (stringToChar[j] != 'a' || stringToChar[j] != 'A' || stringToChar[j] != 'e' || stringToChar[j] != 'E' || stringToChar[j] != 'i' || stringToChar[j] != 'I' || stringToChar[j] != 'o' || stringToChar[j] != 'O' || stringToChar[j] != 'u' || stringToChar[j] != 'U') {
-//                    System.out.println(newString[j]);
-                }
-            }
-
-        }
-
-
-
-
+//            boolean noVowels = true;
+//
+//            for (int j = 0; j < vowels.length; j++) {
+//                if (initialString[i].contains(vowels[j])) {
+//                    noVowels = false;
+//                }
+//            }
+//            if (noVowels) {
+//                System.out.print(initialString[i] + " ");
+//            }
+//        }
+//    }
 
 //        // ZADATAK 9
 
@@ -165,8 +168,11 @@ public class Main {
 //
 //                System.out.println("Sum equals " + sum);
 //            }
+//        }
     }
-}
+
+
+
 
 
 
